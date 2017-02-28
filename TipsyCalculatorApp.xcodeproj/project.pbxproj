@@ -54,14 +54,38 @@
 		AC3796CC1E660D8A002B6A11 /* TipsyCalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC3796DF1E660ED8002B6A11 /* Model */,
+				AC3796E01E661054002B6A11 /* View */,
+				AC3796E11E66105D002B6A11 /* Controller */,
 				AC3796CD1E660D8A002B6A11 /* AppDelegate.swift */,
-				AC3796CF1E660D8A002B6A11 /* ViewController.swift */,
 				AC3796D11E660D8A002B6A11 /* Main.storyboard */,
 				AC3796D41E660D8A002B6A11 /* Assets.xcassets */,
 				AC3796D61E660D8A002B6A11 /* LaunchScreen.storyboard */,
 				AC3796D91E660D8A002B6A11 /* Info.plist */,
 			);
 			path = TipsyCalculatorApp;
+			sourceTree = "<group>";
+		};
+		AC3796DF1E660ED8002B6A11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AC3796E01E661054002B6A11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AC3796E11E66105D002B6A11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC3796CF1E660D8A002B6A11 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
